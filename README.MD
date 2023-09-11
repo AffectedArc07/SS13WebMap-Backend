@@ -34,7 +34,7 @@ This only runs on Linux. You might be able to finesse it into working with WSL b
 
 ### A. Codebase
 
-![codebase](.github/codebase-explainer.jpg)
+![codebase](.github/codebase-explainer.png)
 
 ### B. DB Row
 
