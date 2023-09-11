@@ -1,0 +1,8 @@
+codebases/
+executables/
+out/
+env/
+__pycache__
+config.toml
+sync.sh
+run.sh

@@ -1,0 +1,15 @@
+[general]
+# Directory the system operates out of. Do not put a trailing / on the end
+basedir = "/path/to/folder"
+# GitHub PAT. Used to avoid rate limits.
+git_token = "aaaaaaaaaaaaaaaaaaaaaa"
+
+[database]
+# Database server
+host = "127.0.0.1"
+# Database username
+username = "something"
+# Database password
+password = "something_secure"
+# The database itself
+db = "ss13_webmap"
