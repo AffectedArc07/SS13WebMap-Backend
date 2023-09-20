@@ -314,6 +314,8 @@ codebases = [
         Map("Orion", "orion", "_maps/map_files/Orion_Military_Outpost/orionoutpost.dmm", [1]),
         Map("GelidaIV", "gelidaiv", "_maps/map_files/gelida_iv/gelida_iv.dmm", [1]),
         Map("LawankaOutpost", "lawankaoutpost", "_maps/map_files/Lawanka_Outpost/LawankaOutpost.dmm", [1]),
+        Map("Slumbridge", "slumbridge", "_maps/map_files/slumbridge/slumbridge.dmm", [1]),
+        Map("Arachne", "arachne", "_maps/map_files/Arachne/TGS_Arachne.dmm", [1]),
     ]),
 
     Codebase("White Dream", "whitedream", "https://api.github.com/repos/frosty-dev/white/git/trees", "master", "WhiteDream", False, "renderer-tg", "_maps", [
