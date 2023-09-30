@@ -263,6 +263,7 @@ codebases = [
         Map("Birdshot", "birdshot", "_maps/map_files/Birdshot/birdshot.dmm", [1]), 
         Map("IceBox", "icebox", "_maps/map_files/IceBoxStation/IceBoxStation.dmm", [1, 2, 3]),
         Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStation.dmm", [1]), 
+        Map("RimPoint", "rimpoint", "_maps/map_files/RimPoint/RimPoint.dmm", [1, 2]), 
     ]),
 
     Codebase("SS220", "ss220", "https://api.github.com/repos/ss220-space/Paradise/git/trees", "master220", "SS220-Paradise", True, "renderer-paradise", "_maps", [
