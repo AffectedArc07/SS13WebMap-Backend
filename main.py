@@ -290,10 +290,11 @@ codebases = [
     Codebase("tgstation", "tgstation", "https://api.github.com/repos/tgstation/tgstation/git/trees", "master", "tgstation", True, "renderer-tg", "_maps", [
         Map("DeltaStation", "deltastation", "_maps/map_files/Deltastation/DeltaStation2.dmm", [1]),
         Map("IceBox", "icebox", "_maps/map_files/IceBoxStation/IceBoxStation.dmm", [1, 2, 3]),
-        Map("KiloStation", "kilostation", "_maps/map_files/KiloStation/KiloStation.dmm", [1]),
+        #Map("KiloStation", "kilostation", "_maps/map_files/KiloStation/KiloStation.dmm", [1]),
         Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStation.dmm", [1]),
         Map("TramStation", "tramstation", "_maps/map_files/tramstation/tramstation.dmm", [1, 2]),
         Map("NorthStar", "northstar", "_maps/map_files/NorthStar/north_star.dmm", [1, 2, 3, 4]),
+        Map("BirdShot", "birdshot", "_maps/map_files/Birdshot/birdshot.dmm", [1]),
     ]),
     
     Codebase("TGMC", "tgmc", "https://api.github.com/repos/tgstation/terragov-marine-corps/git/trees", "master", "TerraGov-Marine-Corps", True, "renderer-tg", "_maps", [
@@ -319,20 +320,21 @@ codebases = [
         Map("Arachne", "arachne", "_maps/map_files/Arachne/TGS_Arachne.dmm", [1]),
     ]),
 
-    Codebase("White Dream", "whitedream", "https://api.github.com/repos/frosty-dev/white/git/trees", "master", "WhiteDream", False, "renderer-tg", "_maps", [
-        Map("BoxStation", "boxstation", "_maps/map_files/BoxStation/BoxStationWhite.dmm", [1, 2]),
-        Map("DeltaStation", "deltastation", "_maps/map_files/Deltastation/DeltaStation2.dmm", [1]),
-        Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStationWhite.dmm", [1]),
-        Map("KiloStation", "kilostation", "_maps/map_files/KiloStation/KiloStation.dmm", [1]),
-        Map("Bashenka", "bashenka", "_maps/map_files/Bashenka/bashenka.dmm", [1, 2]),
-        Map("BlueShift Lower Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_lower.dmm", [1]),
-        Map("BlueShift Middle Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_middle.dmm", [1]),
-        Map("BlueShift Upper Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_upper.dmm", [1]),
-        Map("ConstructionStation", "constructionstation", "_maps/map_files/ConstructionStation/ConstructionStation.dmm", [1]),
-        Map("CrashSite", "crashsite", "_maps/map_files/CrashSite/CrashSite.dmm", [1]),
-        Map("Dawn", "dawn", "_maps/map_files/Dawn/dawn.dmm", [1]),
-        Map("Null", "null", "_maps/map_files/Null/Null.dmm", [1]),
-    ]),
+
+    #Codebase("White Dream", "whitedream", "https://api.github.com/repos/frosty-dev/white/git/trees", "master", "WhiteDream", False, "renderer-tg", "_maps", [
+        #Map("BoxStation", "boxstation", "_maps/map_files/BoxStation/BoxStationWhite.dmm", [1, 2]),
+        #Map("DeltaStation", "deltastation", "_maps/map_files/Deltastation/DeltaStation2.dmm", [1]),
+        #Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStationWhite.dmm", [1]),
+        #Map("KiloStation", "kilostation", "_maps/map_files/KiloStation/KiloStation.dmm", [1]),
+        #Map("Bashenka", "bashenka", "_maps/map_files/Bashenka/bashenka.dmm", [1, 2]),
+        #Map("BlueShift Lower Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_lower.dmm", [1]),
+        #Map("BlueShift Middle Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_middle.dmm", [1]),
+        #Map("BlueShift Upper Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_upper.dmm", [1]),
+        #Map("ConstructionStation", "constructionstation", "_maps/map_files/ConstructionStation/ConstructionStation.dmm", [1]),
+        #Map("CrashSite", "crashsite", "_maps/map_files/CrashSite/CrashSite.dmm", [1]),
+        #Map("Dawn", "dawn", "_maps/map_files/Dawn/dawn.dmm", [1]),
+        #Map("Null", "null", "_maps/map_files/Null/Null.dmm", [1]),
+    #]),
 
     Codebase("SS220-TGMC", "ss220tgmc", "https://api.github.com/repos/ss220-space/TerraGov-Marine-Corps/git/trees", "master220", "ss220_tgmc", True, "renderer-tg", "_maps", [
         Map("Talos", "talos", "_maps/map_files/Talos/TGS_Talos.dmm", [1]),
