@@ -33,7 +33,7 @@ class Map:
 
         # Render pipenet if applicable
         if codebase.renderpipenet:
-            os.system("./renderer-pipenet minimap '{}' {} -o \"./data/minimaps/pipenet\"".format(self.mappath, codebase.renderargs))
+            os.system("./renderer minimap --enable only-wires-and-pipes '{}' {} -o \"./data/minimaps/pipenet\"".format(self.mappath, codebase.renderargs))
             for z in self.z:
                 shutil.copy2(
                     "{}/codebases/{}/data/minimaps/pipenet/{}-{}.png".format(__main__.BASEDIR, codebase.repopath, self.dmm_short, z),

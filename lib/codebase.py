@@ -2,7 +2,7 @@ import __main__, os, requests, shutil
 from datetime import datetime
 
 class Codebase:
-    def __init__(self, name, tname, gitapiurl, remotebranch, repopath, renderpipenet, executablepath, mapdir, maps, renderargs=""):
+    def __init__(self, name, tname, gitapiurl, remotebranch, repopath, renderpipenet, mapdir, maps, renderargs=""):
         self.name = name
         self.tname = tname
         self.gitapiurl = gitapiurl
@@ -10,7 +10,6 @@ class Codebase:
         self.repopath = repopath
         self.mapdir = mapdir
         self.renderpipenet = renderpipenet
-        self.executablepath = executablepath
         self.maps = maps
         self.renderargs = renderargs
         self.hash = None
@@ -27,9 +26,7 @@ class Codebase:
         os.system("git clean -dfx")
 
         # Copy render executables in
-        shutil.copy2("{}/executables/{}".format(__main__.BASEDIR, self.executablepath), "{}/codebases/{}/renderer".format(__main__.BASEDIR, self.repopath))
-        if self.renderpipenet:
-            shutil.copy2("{}/executables/{}-pipenet".format(__main__.BASEDIR, self.executablepath), "{}/codebases/{}/renderer-pipenet".format(__main__.BASEDIR, self.repopath))
+        shutil.copy2("{}/executables/renderer".format(__main__.BASEDIR), "{}/codebases/{}/renderer".format(__main__.BASEDIR, self.repopath))
 
     def process(self):
         t = datetime.now()

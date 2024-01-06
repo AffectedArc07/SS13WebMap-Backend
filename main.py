@@ -51,12 +51,12 @@ tempTime = datetime.now()
 logProgress("Registering codebases...")
 
 codebases = [
-    # name, tname, gitapiurl, remotebranch, repopath, renderpipenet, executablepath, mapdir, maps, dmmtoolsargs
-    Codebase("Austation", "austation", "https://api.github.com/repos/austation/austation/git/trees", "master", "austation", True, "renderer-tg", "_maps", [
+    # name, tname, gitapiurl, remotebranch, repopath, renderpipenet, mapdir, maps, dmmtoolsargs
+    Codebase("Austation", "austation", "https://api.github.com/repos/austation/austation/git/trees", "master", "austation", True, "_maps", [
         Map("Austation", "austation", "_maps/map_files/Austation/Austation.dmm", [1]),
     ], "--disable smart-cables"),
 
-    Codebase("Baystation12", "bay12", "https://api.github.com/repos/Baystation12/Baystation12/git/trees", "dev", "Baystation12", False, "renderer-tg", "maps", [
+    Codebase("Baystation12", "bay12", "https://api.github.com/repos/Baystation12/Baystation12/git/trees", "dev", "Baystation12", False, "maps", [
         Map("Torch 1", "torch", "maps/torch/torch1_deck5.dmm", [1]),
         Map("Torch 2", "torch", "maps/torch/torch2_deck4.dmm", [1]),
         Map("Torch 3", "torch", "maps/torch/torch3_deck3.dmm", [1]),
@@ -65,7 +65,7 @@ codebases = [
         Map("Torch Bridge", "torch", "maps/torch/torch6_bridge.dmm", [1]),
     ]),
 
-    Codebase("BeeStation", "bee", "https://api.github.com/repos/BeeStation/BeeStation-Hornet/git/trees", "master", "BeeStation-Hornet", True, "renderer-tg", "_maps", [
+    Codebase("BeeStation", "bee", "https://api.github.com/repos/BeeStation/BeeStation-Hornet/git/trees", "master", "BeeStation-Hornet", True, "_maps", [
         Map("BoxStation", "boxstation", "_maps/map_files/BoxStation/BoxStation.dmm", [1]),
         Map("CorgStation", "corgstation", "_maps/map_files/CorgStation/CorgStation.dmm", [1]),
         Map("DeltaStation", "deltastation", "_maps/map_files/Deltastation/DeltaStation2.dmm", [1]),
@@ -75,7 +75,7 @@ codebases = [
         Map("RadStation", "radstation", "_maps/map_files/RadStation/RadStation.dmm", [1]),
     ], "--disable smart-cables"),
 
-    Codebase("BlueMoon", "bluemoon", "https://api.github.com/repos/BlueMoon-Labs/MOLOT-BlueMoon-Station/git/trees", "master", "MOLOT-BlueMoon-Station", True, "renderer-tg", "_maps", [
+    Codebase("BlueMoon", "bluemoon", "https://api.github.com/repos/BlueMoon-Labs/MOLOT-BlueMoon-Station/git/trees", "master", "MOLOT-BlueMoon-Station", True, "_maps", [
         Map("ArmyStation", "armystation", "_maps/map_files/ArmyStation/ArmyStation.dmm", [1]),
         Map("BoxStation", "boxstation", "_maps/map_files/BoxStation/BoxStation.dmm", [1]),
         Map("CogStation", "cogstation", "_maps/map_files/CogStation/CogStation.dmm", [1]),
@@ -88,11 +88,11 @@ codebases = [
         Map("TauStation", "taustation", "_maps/map_files/TauStation/TauStation.dmm", [1]),
     ]),
 
-    Codebase("BurgerStation", "burger", "https://api.github.com/repos/BurgerLUA/burgerstation/git/trees", "master", "burgerstation", False, "renderer-paradise", "maps", [
+    Codebase("BurgerStation", "burger", "https://api.github.com/repos/BurgerLUA/burgerstation/git/trees", "master", "burgerstation", False, "maps", [
         Map("BurgerStation", "burgerstation", "maps/core/burgerstation.dmm", [1]),
     ]),
     
-    Codebase("Citadel Station RP", "citrp", "https://api.github.com/repos/Citadel-Station-13/Citadel-Station-13-RP/git/trees", "master", "Citadel-Station-13-RP", True, "renderer-paradise", "maps", [
+    Codebase("Citadel Station RP", "citrp", "https://api.github.com/repos/Citadel-Station-13/Citadel-Station-13-RP/git/trees", "master", "Citadel-Station-13-RP", True, "maps", [
         Map("Polaris", "polaris", "maps/northern_star/polaris-1.dmm", [1]),
         Map("Southern Cross", "southerncross", "maps/southern_cross/southern_cross-1.dmm", [1,2,3]),
         Map("Tether 1", "tether", "maps/map_files/Tether/tether-01-surface1.dmm", [1]),
@@ -115,7 +115,7 @@ codebases = [
         Map("Triumph 4", "triumph", "maps/triumph/levels/deck4.dmm", [1]),
     ]),
 
-    Codebase("Citadel Station TG", "cit", "https://api.github.com/repos/Citadel-Station-13/Citadel-Station-13/git/trees", "master", "Citadel-Station-13", True, "renderer-tg", "_maps", [
+    Codebase("Citadel Station TG", "cit", "https://api.github.com/repos/Citadel-Station-13/Citadel-Station-13/git/trees", "master", "Citadel-Station-13", True, "_maps", [
         Map("BoxStation", "boxstation", "_maps/map_files/BoxStation/BoxStation.dmm", [1]),
         Map("CogStation", "cogstation", "_maps/map_files/CogStation/CogStation.dmm", [1]),
         Map("DeltaStation", "deltastation", "_maps/map_files/Deltastation/DeltaStation2.dmm", [1]),
@@ -125,7 +125,7 @@ codebases = [
         Map("PubbyStation", "pubbystation", "_maps/map_files/PubbyStation/PubbyStation.dmm", [1]),
     ], "--disable smart-cables"),
 
-    Codebase("CM-SS13", "cm", "https://api.github.com/repos/cmss13-devs/cmss13/git/trees", "master", "cmss13", True, "renderer-tg", "maps", [
+    Codebase("CM-SS13", "cm", "https://api.github.com/repos/cmss13-devs/cmss13/git/trees", "master", "cmss13", True, "maps", [
         Map("Fiorina Science Annex", "fiorina", "maps/map_files/FOP_v3_Sciannex/Fiorina_SciAnnex.dmm", [1]),
         Map("Kutjevo Refinery", "kutjevo", "maps/map_files/Kutjevo/Kutjevo.dmm", [1]),
         Map("USS Almayer", "almayer", "maps/map_files/USS_Almayer/USS_Almayer.dmm", [1]),
@@ -139,28 +139,28 @@ codebases = [
         Map("NewVaradero", "newvaradero", "maps/map_files/New_Varadero/New_Varadero.dmm", [1]),
     ], "--disable smart-cables"),
 
-    Codebase("DaedalusDock", "daedalus", "https://api.github.com/repos/DaedalusDock/daedalusdock/git/trees", "master", "daedalusdock", False, "renderer-tg", "_maps", [
+    Codebase("DaedalusDock", "daedalus", "https://api.github.com/repos/DaedalusDock/daedalusdock/git/trees", "master", "daedalusdock", False, "_maps", [
         Map("DaedalusMeta", "daedalusmeta", "_maps/map_files/MetaStation/MetaStation.dmm", [1]),
     ]),
     
-    Codebase("Eris", "eris", "https://api.github.com/repos/discordia-space/CEV-Eris/git/trees", "master", "CEV-Eris", False, "renderer-tg", "maps", [
+    Codebase("Eris", "eris", "https://api.github.com/repos/discordia-space/CEV-Eris/git/trees", "master", "CEV-Eris", False, "maps", [
         Map("CEV Eris", "eris", "maps/CEVEris/_CEV_Eris.dmm", [1,2,3,4,5]),
     ], "--disable smart-cables"),
 
-    Codebase("Fulpstation", "fulp", "https://api.github.com/repos/fulpstation/fulpstation/git/trees", "master", "fulpstation", False, "renderer-tg", "_maps", [
+    Codebase("Fulpstation", "fulp", "https://api.github.com/repos/fulpstation/fulpstation/git/trees", "master", "fulpstation", False, "_maps", [
         Map("HelioStation", "heliostation", "_maps/map_files/Heliostation/Heliostation.dmm", [1]),
         Map("SeleneStation", "selenestation", "_maps/map_files/SeleneStation/SeleneStation.dmm", [1]),
         Map("PubbyStation", "pubbystation", "_maps/map_files/PubbyStation/PubbyStation.dmm", [1]),
     ]),
 
-    Codebase("Gearstation", "gearstation", "https://api.github.com/repos/sergeirocks100/GearStation_Next/git/trees", "master", "GearStation", True, "renderer-tg", "_maps", [
+    Codebase("Gearstation", "gearstation", "https://api.github.com/repos/sergeirocks100/GearStation_Next/git/trees", "master", "GearStation", True, "_maps", [
         Map("KiloStation", "kilostation", "_maps/map_files/KiloStation/KiloStation.dmm", [1]),
         Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStation.dmm", [1]),
         Map("DeltaStation", "deltastation", "_maps/map_files/Deltastation/DeltaStation2.dmm", [1]),
         Map("IceBox", "icebox", "_maps/map_files/IceBoxStation/IceBoxStation.dmm", [1, 2, 3]),
     ]),
 
-    Codebase("Goonstation", "goon", "https://api.github.com/repos/goonstation/goonstation/git/trees", "master", "goonstation", False, "renderer-goon", "maps", [
+    Codebase("Goonstation", "goon", "https://api.github.com/repos/goonstation/goonstation/git/trees", "master", "goonstation", False, "maps", [
         Map("Atlas", "atlas", "maps/atlas.dmm", [1]),
         Map("Clarion", "clarion", "maps/clarion.dmm", [1]),
         Map("Cogmap", "cogmap", "maps/cogmap.dmm", [1]),
@@ -172,7 +172,7 @@ codebases = [
         Map("Donut", "donut", "maps/donut3.dmm", [1]),
     ]),
 
-    Codebase("Hearth of Hestia", "hoh", "https://api.github.com/repos/HearthOfHestia/Nebula/git/trees", "dev", "Nebula", False, "renderer-tg", "maps", [
+    Codebase("Hearth of Hestia", "hoh", "https://api.github.com/repos/HearthOfHestia/Nebula/git/trees", "dev", "Nebula", False, "maps", [
         Map("Torch 1", "torch", "maps/torch/torch1_deck5.dmm", [1]),
         Map("Torch 2", "torch", "maps/torch/torch2_deck4.dmm", [1]),
         Map("Torch 3", "torch", "maps/torch/torch3_deck3.dmm", [1]),
@@ -181,12 +181,12 @@ codebases = [
         Map("Torch Bridge", "torch", "maps/torch/torch6_bridge.dmm", [1]),
     ]),
 
-    Codebase("HippieStation", "hippie", "https://api.github.com/repos/HippieStation/HippieStation/git/trees", "master", "HippieStation", True, "renderer-tg", "_maps", [
+    Codebase("HippieStation", "hippie", "https://api.github.com/repos/HippieStation/HippieStation/git/trees", "master", "HippieStation", True, "_maps", [
         Map("HippieStation", "hippiestation", "_maps/map_files/HippieStation/hippiestation.dmm", [1]),
         Map("MiniStation", "ministation", "_maps/map_files/MiniStation/ministation.dmm", [1]),
     ]),
 
-    Codebase("Lumos SS13", "lumos", "https://api.github.com/repos/Lumos-SS13/Lumos/git/trees", "master", "Lumos", False, "renderer-tg", "_maps", [
+    Codebase("Lumos SS13", "lumos", "https://api.github.com/repos/Lumos-SS13/Lumos/git/trees", "master", "Lumos", False, "_maps", [
         Map("BoxStation", "boxstation", "_maps/map_files/BoxStation/BoxStation_Lumos.dmm", [1]),
         Map("DeltaStation", "deltastation", "_maps/map_files/Deltastation/DeltaStation2_Lumos.dmm", [1]),
         Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStation_Lumos.dmm", [1]),
@@ -201,7 +201,7 @@ codebases = [
         Map("FridgeStation Underground Below", "fridgestation", "_maps/map_files/FridgeStation/IcemoonUnderground_Fridge_Below.dmm", [1]),
     ], "--disable smart-cables"),
 
-    Codebase("NSV13", "nsv", "https://api.github.com/repos/BeeStation/NSV13/git/trees", "master", "NSV13", False, "renderer-tg", "_maps", [
+    Codebase("NSV13", "nsv", "https://api.github.com/repos/BeeStation/NSV13/git/trees", "master", "NSV13", False, "_maps", [
         Map("Hammerhead", "hammerhead", "_maps/map_files/Hammerhead/Hammerhead.dmm", [1]),
         Map("Tycoon 1", "tycoon", "_maps/map_files/Tycoon/Tycoon1.dmm", [1]),
         Map("Tycoon 2", "tycoon", "_maps/map_files/Tycoon/Tycoon2.dmm", [1]),
@@ -223,7 +223,7 @@ codebases = [
         Map("Serendipity Lower", "serendipity", "_maps/map_files/Serendipity/Serendipity2.dmm", [1]),
     ], "--disable smart-cables,icon-smoothing"),
 
-    Codebase("ChaoticOnyx", "onyx", "https://api.github.com/repos/ChaoticOnyx/OnyxBay/git/trees", "dev", "OnyxBay", False, "renderer-tg", "maps", [
+    Codebase("ChaoticOnyx", "onyx", "https://api.github.com/repos/ChaoticOnyx/OnyxBay/git/trees", "dev", "OnyxBay", False, "maps", [
         Map("Exodus 1", "exodus", "maps/exodus/exodus-1.dmm", [1]),
         Map("Exodus 2", "exodus", "maps/exodus/exodus-2.dmm", [1]),
         Map("Exodus 4", "exodus", "maps/exodus/exodus-4.dmm", [1]),
@@ -236,26 +236,26 @@ codebases = [
         Map("Genesis 6", "genesis", "maps/exodus/genesis/genesis-6.dmm", [1]),
     ]),
 
-    Codebase("ParadiseSS13", "paradise", "https://api.github.com/repos/ParadiseSS13/Paradise/git/trees", "master", "Paradise", True, "renderer-tg", "_maps", [
+    Codebase("ParadiseSS13", "paradise", "https://api.github.com/repos/ParadiseSS13/Paradise/git/trees", "master", "Paradise", True, "_maps", [
         Map("Cyberiad", "cyberiad", "_maps/map_files/cyberiad/cyberiad.dmm", [1]),
         Map("CereStation", "cerestation", "_maps/map_files/cerestation/cerestation.dmm", [1]),
         Map("DeltaStation", "deltastation", "_maps/map_files/Delta/delta.dmm", [1]),
         Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStation.dmm", [1]),
     ]),
 
-    Codebase("SinguloStation", "singulo", "https://api.github.com/repos/SinguloStation13/SinguloStation13/git/trees", "master", "SinguloStation13", False, "renderer-tg", "_maps", [
+    Codebase("SinguloStation", "singulo", "https://api.github.com/repos/SinguloStation13/SinguloStation13/git/trees", "master", "SinguloStation13", False, "_maps", [
         Map("ConstructionStation", "construction", "_maps/map_files/ConstructionStation/ConstructionStation.dmm", [1]),
         Map("CryoStation", "cryo", "_maps/map_files/CryoStation/CryoStation.dmm", [1]),
     ]),
 
-    Codebase("Skyrat TG", "skyrat-tg", "https://api.github.com/repos/Skyrat-SS13/Skyrat-tg/git/trees", "master", "Skyrat-tg", True, "renderer-tg", "_maps", [
+    Codebase("Skyrat TG", "skyrat-tg", "https://api.github.com/repos/Skyrat-SS13/Skyrat-tg/git/trees", "master", "Skyrat-tg", True, "_maps", [
         Map("VoidRaptor", "voidraptor", "_maps/map_files/VoidRaptor/VoidRaptor.dmm", [1]), 
         Map("BlueShift Lower Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_lower.dmm", [1]),
         Map("BlueShift Middle Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_middle.dmm", [1]),
         Map("BlueShift Upper Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_upper.dmm", [1]),
     ]),
 
-    Codebase("Effigy", "effigy", "https://api.github.com/repos/effigy-se/effigy-se/git/trees", "main", "effigy-se", True, "renderer-tg", "_maps", [
+    Codebase("Effigy", "effigy", "https://api.github.com/repos/effigy-se/effigy-se/git/trees", "main", "effigy-se", True, "_maps", [
         Map("FoxHoleStation", "foxholestation", "_maps/map_files/FoxHoleStation/foxholestation.dmm", [1, 2]),
         Map("Tramstation", "tramstation", "_maps/map_files/tramstation/tramstation.dmm", [1, 2]),
         Map("MiniStation", "ministation", "_maps/map_files/MiniStation/MiniStation.dmm", [1]),
@@ -266,19 +266,19 @@ codebases = [
         Map("RimPoint", "rimpoint", "_maps/map_files/RimPoint/RimPoint.dmm", [1, 2]), 
     ]),
 
-    Codebase("SS220", "ss220", "https://api.github.com/repos/ss220-space/Paradise/git/trees", "master220", "SS220-Paradise", True, "renderer-paradise", "_maps", [
+    Codebase("SS220", "ss220", "https://api.github.com/repos/ss220-space/Paradise/git/trees", "master220", "SS220-Paradise", True, "_maps", [
         Map("Cyberiad", "cyberiad", "_maps/map_files/cyberiad/cyberiad.dmm", [1]),
         Map("DeltaStation", "deltastation", "_maps/map_files/Delta/delta.dmm", [1]),
         Map("CereStation", "cerestation", "_maps/map_files/cerestation/cerestation.dmm", [1]),
     ]),
 
-    Codebase("TaleStation", "talestation", "https://api.github.com/repos/TaleStation/TaleStation/git/trees", "master", "TaleStation", True, "renderer-tg", "_maps", [
+    Codebase("TaleStation", "talestation", "https://api.github.com/repos/TaleStation/TaleStation/git/trees", "master", "TaleStation", True, "_maps", [
         Map("Lima", "lima", "_maps/map_files/LimaStation/LimaStation.dmm", [1, 2]), 
         Map("PubbyStation", "pubby", "_maps/map_files/PubbyStation/PubbyStation.dmm", [1]),
         Map("KiloStation", "kilo", "_maps/map_files/KiloStation/KiloStation.dmm", [1]),
     ]),
 
-    Codebase("Tau Ceti Classic", "tcc", "https://api.github.com/repos/TauCetiStation/TauCetiClassic/git/trees", "master", "TauCetiClassic", True, "renderer-tcc", "maps", [
+    Codebase("Tau Ceti Classic", "tcc", "https://api.github.com/repos/TauCetiStation/TauCetiClassic/git/trees", "master", "TauCetiClassic", True, "maps", [
         Map("Asteroid", "asteroid", "maps/asteroid/asteroid.dmm", [1]),
         Map("BoxStation", "box", "maps/boxstation/boxstation.dmm", [1]),
         Map("Gamma", "gamma", "maps/gamma/gamma.dmm", [1]),
@@ -287,7 +287,7 @@ codebases = [
         Map("Prometheus Asteroid", "prometheus_asteroid", "maps/prometheus_asteroid/prometheus_asteroid.dmm", [1]),
     ], "--disable smart-cables,icon-smoothing"),
 
-    Codebase("tgstation", "tgstation", "https://api.github.com/repos/tgstation/tgstation/git/trees", "master", "tgstation", True, "renderer-tg", "_maps", [
+    Codebase("tgstation", "tgstation", "https://api.github.com/repos/tgstation/tgstation/git/trees", "master", "tgstation", True, "_maps", [
         Map("DeltaStation", "deltastation", "_maps/map_files/Deltastation/DeltaStation2.dmm", [1]),
         Map("IceBox", "icebox", "_maps/map_files/IceBoxStation/IceBoxStation.dmm", [1, 2, 3]),
         #Map("KiloStation", "kilostation", "_maps/map_files/KiloStation/KiloStation.dmm", [1]),
@@ -297,7 +297,7 @@ codebases = [
         Map("BirdShot", "birdshot", "_maps/map_files/Birdshot/birdshot.dmm", [1]),
     ]),
     
-    Codebase("TGMC", "tgmc", "https://api.github.com/repos/tgstation/terragov-marine-corps/git/trees", "master", "TerraGov-Marine-Corps", True, "renderer-tg", "_maps", [
+    Codebase("TGMC", "tgmc", "https://api.github.com/repos/tgstation/terragov-marine-corps/git/trees", "master", "TerraGov-Marine-Corps", True, "_maps", [
         Map("TGS Theseus", "theseus", "_maps/map_files/Theseus/TGS_Theseus.dmm", [1]),
         Map("Big Red", "bigred", "_maps/map_files/BigRed_v2/BigRed_v2.dmm", [1]),
         Map("Ice Colony", "icecolony", "_maps/map_files/Ice_Colony_v2/Ice_Colony_v2.dmm", [1]),
@@ -321,7 +321,7 @@ codebases = [
     ]),
 
 
-    #Codebase("White Dream", "whitedream", "https://api.github.com/repos/frosty-dev/white/git/trees", "master", "WhiteDream", False, "renderer-tg", "_maps", [
+    #Codebase("White Dream", "whitedream", "https://api.github.com/repos/frosty-dev/white/git/trees", "master", "WhiteDream", False, "_maps", [
         #Map("BoxStation", "boxstation", "_maps/map_files/BoxStation/BoxStationWhite.dmm", [1, 2]),
         #Map("DeltaStation", "deltastation", "_maps/map_files/Deltastation/DeltaStation2.dmm", [1]),
         #Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStationWhite.dmm", [1]),
@@ -336,11 +336,11 @@ codebases = [
         #Map("Null", "null", "_maps/map_files/Null/Null.dmm", [1]),
     #]),
 
-    Codebase("SS220-TGMC", "ss220tgmc", "https://api.github.com/repos/ss220-space/TerraGov-Marine-Corps/git/trees", "master220", "ss220_tgmc", True, "renderer-tg", "_maps", [
+    Codebase("SS220-TGMC", "ss220tgmc", "https://api.github.com/repos/ss220-space/TerraGov-Marine-Corps/git/trees", "master220", "ss220_tgmc", True, "_maps", [
         Map("Talos", "talos", "_maps/map_files/Talos/TGS_Talos.dmm", [1]),
     ]),
     
-    Codebase("Yogstation", "yog", "https://api.github.com/repos/Yogstation13/Yogstation/git/trees", "master", "Yogstation", True, "renderer-tg", "_maps", [
+    Codebase("Yogstation", "yog", "https://api.github.com/repos/Yogstation13/Yogstation/git/trees", "master", "Yogstation", True, "_maps", [
         Map("Yogs Meta", "yogsmeta", "_maps/map_files/Yogsmeta/Yogsmeta.dmm", [1]),
         Map("YogStation", "yogstation", "_maps/map_files/YogStation/YogStation.dmm", [1]),
         Map("GaxStation", "gaxstation", "_maps/map_files/GaxStation/GaxStation.dmm", [1]),

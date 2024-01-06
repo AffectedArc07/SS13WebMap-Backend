@@ -25,10 +25,9 @@ This only runs on Linux. You might be able to finesse it into working with WSL b
 6. Comment out all the codebases you aren't planning to test.
 7. Clone the git repos of the codebases you do want to test into the `codebases` folder, making sure the codebase folder matches the declaration (see section `3.A`).
 8. Insert the relevant DB rows (see section `3.B`).
-9. Compile [dmm-tools](https://github.com/Spacemaniac/SpacemanDMM) and place it into executables as `renderer-tg`.
-10. Make sure that the `fancy` flag for the codebases you are testing is set to `False`. This is because I cannot distribute the modified `-pipe` renderers.
-11. Copy `sync.sh.example` to `sync.sh` and edit it to suit your environment. This could also mean making the file do nothing.
-12. Run `run.sh` and hope for the best.
+9. Compile [dmm-tools](https://github.com/Spacemaniac/SpacemanDMM) and place it into executables as `renderer`.
+10. Copy `sync.sh.example` to `sync.sh` and edit it to suit your environment. This could also mean making the file do nothing.
+11. Run `run.sh` and hope for the best.
 
 ## 3. Explanation of relevant pieces
 
@@ -55,8 +54,6 @@ This code is still awful, and there are a number of things I can do to it, most 
 
 However, there are some things I want to do, most notably:
 
-- [ ] Modify [dmm-tools](https://github.com/Spacemaniac/SpacemanDMM) to add a single `pipenet` pass that enables pipes *and* wires.
-- [ ] Remove the need for custom `dmm-tools` versions and have every codebase use the default (TG) variant [now that it can be configured](https://github.com/ParadiseSS13/Paradise/blob/master/SpacemanDMM.toml).
 - [ ] Make codebase checking async to save that bit more time.
 
 Will this ever be worked on? Probably not, but by open sourcing it, it might give me a drive to improve it, or I can atleast let people modify their own codebases as they add and remove maps. Also something something bus factor.
