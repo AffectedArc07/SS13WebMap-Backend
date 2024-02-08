@@ -52,6 +52,17 @@ logProgress("Registering codebases...")
 
 codebases = [
     # name, tname, gitapiurl, remotebranch, repopath, renderpipenet, mapdir, maps, dmmtoolsargs
+    Codebase("AquilaStation", "aquila", "https://api.github.com/repos/aq33/NSV13/git/trees", "master", "Aquila-NSV", True, "_maps", [
+        Map("Atlas Lower", "atlas", "_maps/map_files/Atlas/atlas.dmm", [1]),
+        Map("Atlas Upper", "atlas", "_maps/map_files/Atlas/atlas2.dmm", [1]),
+        Map("Atlantis Lower", "atlantis", "_maps/map_files/Atlantis/Atlantis.dmm", [1]),
+        Map("Atlantis Upper", "atlantis", "_maps/map_files/Atlantis/Atlantis2.dmm", [1]),
+        Map("Snake Lower", "snake", "_maps/map_files/Snake/snake_lower.dmm", [1]),
+        Map("Snake Upper", "snake", "_maps/map_files/Snake/snake_upper.dmm", [1]),
+        Map("Serendipity Lower", "serendipity", "_maps/map_files/Serendipity/Serendipity2.dmm", [1]),
+        Map("Serendipity Upper", "serendipity", "_maps/map_files/Serendipity/Serendipity1.dmm", [1]),
+    ], "--disable smart-cables"),
+
     Codebase("Austation", "austation", "https://api.github.com/repos/austation/austation/git/trees", "master", "austation", True, "_maps", [
         Map("Austation", "austation", "_maps/map_files/Austation/Austation.dmm", [1]),
     ], "--disable smart-cables"),
