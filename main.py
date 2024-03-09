@@ -102,29 +102,6 @@ codebases = [
     Codebase("BurgerStation", "burger", "https://api.github.com/repos/BurgerLUA/burgerstation/git/trees", "master", "burgerstation", False, "maps", [
         Map("BurgerStation", "burgerstation", "maps/core/burgerstation.dmm", [1]),
     ]),
-    
-    Codebase("Citadel Station RP", "citrp", "https://api.github.com/repos/Citadel-Station-13/Citadel-Station-13-RP/git/trees", "master", "Citadel-Station-13-RP", True, "maps", [
-        Map("Polaris", "polaris", "maps/northern_star/polaris-1.dmm", [1]),
-        Map("Southern Cross", "southerncross", "maps/southern_cross/southern_cross-1.dmm", [1,2,3]),
-        Map("Tether 1", "tether", "maps/map_files/Tether/tether-01-surface1.dmm", [1]),
-        Map("Tether 2", "tether", "maps/map_files/Tether/tether-02-surface2.dmm", [1]),
-        Map("Tether 3", "tether", "maps/map_files/Tether/tether-03-surface3.dmm", [1]),
-        Map("Tether 4", "tether", "maps/map_files/Tether/tether-04-transit.dmm", [1]),
-        Map("Tether 5", "tether", "maps/map_files/Tether/tether-05-station1.dmm", [1]),
-        Map("Tether 6", "tether", "maps/map_files/Tether/tether-06-station2.dmm", [1]),
-        Map("Tether 7", "tether", "maps/map_files/Tether/tether-07-station3.dmm", [1]),
-        Map("Virgo", "virgo", "maps/virgo/virgo-1.dmm", [1]),
-        Map("Atlas 1", "atlas", "maps/rift/levels/rift-01-underground3.dmm", [1]),
-        Map("Atlas 2", "atlas", "maps/rift/levels/rift-02-underground2.dmm", [1]),
-        Map("Atlas 3", "atlas", "maps/rift/levels/rift-03-underground1.dmm", [1]),
-        Map("Atlas 4", "atlas", "maps/rift/levels/rift-04-surface1.dmm", [1]),
-        Map("Atlas 5", "atlas", "maps/rift/levels/rift-05-surface2.dmm", [1]),
-        Map("Atlas 6", "atlas", "maps/rift/levels/rift-06-surface3.dmm", [1]),
-        Map("Triumph 1", "triumph", "maps/triumph/levels/deck1.dmm", [1]),
-        Map("Triumph 2", "triumph", "maps/triumph/levels/deck2.dmm", [1]),
-        Map("Triumph 3", "triumph", "maps/triumph/levels/deck3.dmm", [1]),
-        Map("Triumph 4", "triumph", "maps/triumph/levels/deck4.dmm", [1]),
-    ]),
 
     Codebase("Citadel Station TG", "cit", "https://api.github.com/repos/Citadel-Station-13/Citadel-Station-13/git/trees", "master", "Citadel-Station-13", True, "_maps", [
         Map("BoxStation", "boxstation", "_maps/map_files/BoxStation/BoxStation.dmm", [1]),
