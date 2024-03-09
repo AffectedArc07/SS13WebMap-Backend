@@ -67,7 +67,7 @@ codebases = [
         Map("Austation", "austation", "_maps/map_files/Austation/Austation.dmm", [1]),
     ], "--disable smart-cables"),
 
-    Codebase("Baystation12", "bay12", "https://api.github.com/repos/Baystation12/Baystation12/git/trees", "dev", "Baystation12", False, "maps", [
+    Codebase("Baystation12", "bay12", "https://api.github.com/repos/Baystation12/Baystation12/git/trees", "dev", "Baystation12", True, "maps", [
         Map("Torch 1", "torch", "maps/torch/torch1_deck5.dmm", [1]),
         Map("Torch 2", "torch", "maps/torch/torch2_deck4.dmm", [1]),
         Map("Torch 3", "torch", "maps/torch/torch3_deck3.dmm", [1]),
@@ -86,7 +86,7 @@ codebases = [
         Map("RadStation", "radstation", "_maps/map_files/RadStation/RadStation.dmm", [1]),
     ], "--disable smart-cables"),
 
-    Codebase("BlueMoon", "bluemoon", "https://api.github.com/repos/BlueMoon-Labs/MOLOT-BlueMoon-Station/git/trees", "master", "MOLOT-BlueMoon-Station", True, "_maps", [
+    Codebase("BlueMoon", "bluemoon", "https://api.github.com/repos/BlueMoon-Labs/MOLOT-BlueMoon-Station/git/trees", "master", "MOLOT-BlueMoon-Station", False, "_maps", [
         Map("ArmyStation", "armystation", "_maps/map_files/ArmyStation/ArmyStation.dmm", [1]),
         Map("BoxStation", "boxstation", "_maps/map_files/BoxStation/BoxStation.dmm", [1]),
         Map("CogStation", "cogstation", "_maps/map_files/CogStation/CogStation.dmm", [1]),
