@@ -128,6 +128,19 @@ codebases = [
         Map("Triumph 1 Engineering Deck", "triumph", "maps/triumph/levels/deck1.dmm", [1]),
     ]),
 
+    Codebase("ChaoticOnyx", "onyx", "https://api.github.com/repos/ChaoticOnyx/OnyxBay/git/trees", "dev", "OnyxBay", False, "maps", [
+        Map("Exodus 1", "exodus", "maps/exodus/exodus-1.dmm", [1]),
+        Map("Exodus 2", "exodus", "maps/exodus/exodus-2.dmm", [1]),
+        Map("Exodus 4", "exodus", "maps/exodus/exodus-4.dmm", [1]),
+        Map("Exodus 6", "exodus", "maps/exodus/exodus-6.dmm", [1]),
+        Map("Frontier 1", "frontier", "maps/exodus/frontier/frontier-1.dmm", [1]),
+        Map("Frontier 3", "frontier", "maps/exodus/frontier/frontier-3.dmm", [1]),
+        Map("Genesis 1", "genesis", "maps/exodus/genesis/genesis-1.dmm", [1]),
+        Map("Genesis 2", "genesis", "maps/exodus/genesis/genesis-2.dmm", [1]),
+        Map("Genesis 3", "genesis", "maps/exodus/genesis/genesis-3.dmm", [1]),
+        Map("Genesis 6", "genesis", "maps/exodus/genesis/genesis-6.dmm", [1]),
+    ]),
+
     Codebase("Citadel Station TG", "cit", "https://api.github.com/repos/Citadel-Station-13/Citadel-Station-13/git/trees", "master", "Citadel-Station-13", True, "_maps", [
         Map("BoxStation", "boxstation", "_maps/map_files/BoxStation/BoxStation.dmm", [1]),
         Map("CogStation", "cogstation", "_maps/map_files/CogStation/CogStation.dmm", [1]),
@@ -154,6 +167,17 @@ codebases = [
 
     Codebase("DaedalusDock", "daedalus", "https://api.github.com/repos/DaedalusDock/daedalusdock/git/trees", "master", "daedalusdock", False, "_maps", [
         Map("DaedalusMeta", "daedalusmeta", "_maps/map_files/MetaStation/MetaStation.dmm", [1]),
+    ]),
+
+    Codebase("Effigy", "effigy", "https://api.github.com/repos/effigy-se/effigy-se/git/trees", "main", "effigy-se", True, "_maps", [
+        Map("FoxHoleStation", "foxholestation", "_maps/map_files/FoxHoleStation/foxholestation.dmm", [1, 2]),
+        Map("Tramstation", "tramstation", "_maps/map_files/tramstation/tramstation.dmm", [1, 2]),
+        Map("MiniStation", "ministation", "_maps/map_files/MiniStation/MiniStation.dmm", [1]),
+        Map("NorthStar", "northstar", "_maps/map_files/NorthStar/north_star.dmm", [1, 2, 3, 4]), 
+        Map("IceBox", "icebox", "_maps/map_files/IceBoxStation/IceBoxStation.dmm", [1, 2, 3]),
+        Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStation.dmm", [1]), 
+        Map("RimPoint", "rimpoint", "_maps/map_files/RimPoint/RimPoint.dmm", [1, 2]), 
+        Map("SigmaOctantis", "sigmaoctantis", "_maps/map_files/SigmaOctantis/SigmaOctantis.dmm", [1, 2]), 
     ]),
     
     Codebase("Eris", "eris", "https://api.github.com/repos/discordia-space/CEV-Eris/git/trees", "master", "CEV-Eris", False, "maps", [
@@ -236,19 +260,6 @@ codebases = [
         Map("Serendipity Lower", "serendipity", "_maps/map_files/Serendipity/Serendipity2.dmm", [1]),
     ], "--disable smart-cables,icon-smoothing"),
 
-    Codebase("ChaoticOnyx", "onyx", "https://api.github.com/repos/ChaoticOnyx/OnyxBay/git/trees", "dev", "OnyxBay", False, "maps", [
-        Map("Exodus 1", "exodus", "maps/exodus/exodus-1.dmm", [1]),
-        Map("Exodus 2", "exodus", "maps/exodus/exodus-2.dmm", [1]),
-        Map("Exodus 4", "exodus", "maps/exodus/exodus-4.dmm", [1]),
-        Map("Exodus 6", "exodus", "maps/exodus/exodus-6.dmm", [1]),
-        Map("Frontier 1", "frontier", "maps/exodus/frontier/frontier-1.dmm", [1]),
-        Map("Frontier 3", "frontier", "maps/exodus/frontier/frontier-3.dmm", [1]),
-        Map("Genesis 1", "genesis", "maps/exodus/genesis/genesis-1.dmm", [1]),
-        Map("Genesis 2", "genesis", "maps/exodus/genesis/genesis-2.dmm", [1]),
-        Map("Genesis 3", "genesis", "maps/exodus/genesis/genesis-3.dmm", [1]),
-        Map("Genesis 6", "genesis", "maps/exodus/genesis/genesis-6.dmm", [1]),
-    ]),
-
     Codebase("ParadiseSS13", "paradise", "https://api.github.com/repos/ParadiseSS13/Paradise/git/trees", "master", "Paradise", True, "_maps", [
         Map("Cyberiad", "cyberiad", "_maps/map_files/cyberiad/cyberiad.dmm", [1]),
         Map("CereStation", "cerestation", "_maps/map_files/cerestation/cerestation.dmm", [1]),
@@ -266,17 +277,6 @@ codebases = [
         Map("BlueShift Lower Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_lower.dmm", [1]),
         Map("BlueShift Middle Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_middle.dmm", [1]),
         Map("BlueShift Upper Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_upper.dmm", [1]),
-    ]),
-
-    Codebase("Effigy", "effigy", "https://api.github.com/repos/effigy-se/effigy-se/git/trees", "main", "effigy-se", True, "_maps", [
-        Map("FoxHoleStation", "foxholestation", "_maps/map_files/FoxHoleStation/foxholestation.dmm", [1, 2]),
-        Map("Tramstation", "tramstation", "_maps/map_files/tramstation/tramstation.dmm", [1, 2]),
-        Map("MiniStation", "ministation", "_maps/map_files/MiniStation/MiniStation.dmm", [1]),
-        Map("NorthStar", "northstar", "_maps/map_files/NorthStar/north_star.dmm", [1, 2, 3, 4]), 
-        Map("IceBox", "icebox", "_maps/map_files/IceBoxStation/IceBoxStation.dmm", [1, 2, 3]),
-        Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStation.dmm", [1]), 
-        Map("RimPoint", "rimpoint", "_maps/map_files/RimPoint/RimPoint.dmm", [1, 2]), 
-        Map("SigmaOctantis", "sigmaoctantis", "_maps/map_files/SigmaOctantis/SigmaOctantis.dmm", [1, 2]), 
     ]),
 
     Codebase("SS220", "ss220", "https://api.github.com/repos/ss220-space/Paradise/git/trees", "master220", "SS220-Paradise", True, "_maps", [
