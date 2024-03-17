@@ -148,7 +148,7 @@ codebases = [
         Map("Shivas Snowball", "shivas", "maps/map_files/Ice_Colony_v3/Shivas_Snowball.dmm", [1]),
         Map("Whiskey Outpost", "whiskey", "maps/map_files/Whiskey_Outpost_v2/Whiskey_Outpost_v2.dmm", [1]),
         Map("Sorokyne Strata", "sorokyne", "maps/map_files/Sorokyne_Strata/Sorokyne_Strata.dmm", [1]),
-        Map("LV552", "lv552", "maps/map_files/LV522_Chances_Claim/LV522_Chances_Claim.dmm", [1]),
+        Map("LV522", "lv522", "maps/map_files/LV522_Chances_Claim/LV522_Chances_Claim.dmm", [1]),
         Map("NewVaradero", "newvaradero", "maps/map_files/New_Varadero/New_Varadero.dmm", [1]),
     ], "--disable smart-cables"),
 
