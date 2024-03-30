@@ -261,10 +261,10 @@ codebases = [
     ], "--disable smart-cables,icon-smoothing"),
 
     Codebase("ParadiseSS13", "paradise", "https://api.github.com/repos/ParadiseSS13/Paradise/git/trees", "master", "Paradise", True, "_maps", [
-        Map("Cyberiad", "cyberiad", "_maps/map_files/cyberiad/cyberiad.dmm", [1]),
-        Map("CereStation", "cerestation", "_maps/map_files/cerestation/cerestation.dmm", [1]),
-        Map("DeltaStation", "deltastation", "_maps/map_files/Delta/delta.dmm", [1]),
-        Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStation.dmm", [1]),
+        Map("Cyberiad", "cyberiad", "_maps/map_files/stations/boxstation.dmm", [1]),
+        Map("CereStation", "cerestation", "_maps/map_files/stations/cerestation.dmm", [1]),
+        Map("DeltaStation", "deltastation", "_maps/map_files/stations/deltastation.dmm", [1]),
+        Map("MetaStation", "metastation", "_maps/map_files/stations/metastation.dmm", [1]),
     ]),
 
     Codebase("SinguloStation", "singulo", "https://api.github.com/repos/SinguloStation13/SinguloStation13/git/trees", "master", "SinguloStation13", False, "_maps", [
