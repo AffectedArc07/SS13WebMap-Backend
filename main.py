@@ -332,22 +332,6 @@ codebases = [
         Map("Arachne", "arachne", "_maps/map_files/Arachne/TGS_Arachne.dmm", [1]),
     ]),
 
-    # Disabled due to git issues
-    #Codebase("White Dream", "whitedream", "https://api.github.com/repos/frosty-dev/white/git/trees", "master", "WhiteDream", False, "_maps", [
-        #Map("BoxStation", "boxstation", "_maps/map_files/BoxStation/BoxStationWhite.dmm", [1, 2]),
-        #Map("DeltaStation", "deltastation", "_maps/map_files/Deltastation/DeltaStation2.dmm", [1]),
-        #Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStationWhite.dmm", [1]),
-        #Map("KiloStation", "kilostation", "_maps/map_files/KiloStation/KiloStation.dmm", [1]),
-        #Map("Bashenka", "bashenka", "_maps/map_files/Bashenka/bashenka.dmm", [1, 2]),
-        #Map("BlueShift Lower Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_lower.dmm", [1]),
-        #Map("BlueShift Middle Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_middle.dmm", [1]),
-        #Map("BlueShift Upper Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_upper.dmm", [1]),
-        #Map("ConstructionStation", "constructionstation", "_maps/map_files/ConstructionStation/ConstructionStation.dmm", [1]),
-        #Map("CrashSite", "crashsite", "_maps/map_files/CrashSite/CrashSite.dmm", [1]),
-        #Map("Dawn", "dawn", "_maps/map_files/Dawn/dawn.dmm", [1]),
-        #Map("Null", "null", "_maps/map_files/Null/Null.dmm", [1]),
-    #]),
-
     Codebase("Yogstation", "yog", "https://api.github.com/repos/Yogstation13/Yogstation/git/trees", "master", "Yogstation", True, "_maps", [
         Map("Yogs Meta", "yogsmeta", "_maps/map_files/Yogsmeta/Yogsmeta.dmm", [1]),
         Map("YogStation", "yogstation", "_maps/map_files/YogStation/YogStation.dmm", [1]),
