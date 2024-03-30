@@ -218,11 +218,6 @@ codebases = [
         Map("Torch Bridge", "torch", "maps/torch/torch6_bridge.dmm", [1]),
     ]),
 
-    Codebase("HippieStation", "hippie", "https://api.github.com/repos/HippieStation/HippieStation/git/trees", "master", "HippieStation", True, "_maps", [
-        Map("HippieStation", "hippiestation", "_maps/map_files/HippieStation/hippiestation.dmm", [1]),
-        Map("MiniStation", "ministation", "_maps/map_files/MiniStation/ministation.dmm", [1]),
-    ]),
-
     Codebase("Lumos SS13", "lumos", "https://api.github.com/repos/Lumos-SS13/Lumos/git/trees", "master", "Lumos", False, "_maps", [
         Map("BoxStation", "boxstation", "_maps/map_files/BoxStation/BoxStation_Lumos.dmm", [1]),
         Map("DeltaStation", "deltastation", "_maps/map_files/Deltastation/DeltaStation2_Lumos.dmm", [1]),
