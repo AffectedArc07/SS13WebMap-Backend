@@ -165,7 +165,7 @@ codebases = [
         Map("NewVaradero", "newvaradero", "maps/map_files/New_Varadero/New_Varadero.dmm", [1]),
     ], "--disable smart-cables"),
 
-    Codebase("DaedalusDock", "daedalus", "https://api.github.com/repos/DaedalusDock/daedalusdock/git/trees", "master", "daedalusdock", False, "_maps", [
+    Codebase("DaedalusDock", "daedalus", "https://api.github.com/repos/DaedalusDock/daedalusdock/git/trees", "master", "daedalusdock", True, "_maps", [
         Map("Theseus", "theseus", "_maps/map_files/Theseus/Theseus.dmm", [1]),
     ]),
 
