@@ -166,7 +166,7 @@ codebases = [
     ], "--disable smart-cables"),
 
     Codebase("DaedalusDock", "daedalus", "https://api.github.com/repos/DaedalusDock/daedalusdock/git/trees", "master", "daedalusdock", False, "_maps", [
-        Map("DaedalusMeta", "daedalusmeta", "_maps/map_files/MetaStation/MetaStation.dmm", [1]),
+        Map("Theseus", "theseus", "_maps/map_files/Theseus/Theseus.dmm", [1]),
     ]),
 
     Codebase("Effigy", "effigy", "https://api.github.com/repos/effigy-se/effigy-se/git/trees", "main", "effigy-se", True, "_maps", [
