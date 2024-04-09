@@ -185,6 +185,13 @@ codebases = [
         Map("CEV Eris", "eris", "maps/CEVEris/_CEV_Eris.dmm", [1,2,3,4,5]),
     ], "--disable smart-cables"),
 
+    Codebase("Foundation19", "foundation19", "https://api.github.com/repos/Foundation-19/Foundation-19/git/trees", "dev", "Foundation-19", False, "maps", [
+        Map("Site53-1", "site53", "maps/site53/site53-1.dmm", [1]),
+        Map("Site53-2", "site53", "maps/site53/site53-2.dmm", [1]),
+        Map("Site53-3", "site53", "maps/site53/site53-3.dmm", [1]),
+        Map("Site53-4", "site53", "maps/site53/site53-4.dmm", [1]),
+    ], "--disable smart-cables"),
+
     Codebase("Fulpstation", "fulp", "https://api.github.com/repos/fulpstation/fulpstation/git/trees", "master", "fulpstation", False, "_maps", [
         Map("HelioStation", "heliostation", "_maps/map_files/Heliostation/Heliostation.dmm", [1]),
         Map("SeleneStation", "selenestation", "_maps/map_files/SeleneStation/SeleneStation.dmm", [1]),
