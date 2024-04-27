@@ -241,6 +241,12 @@ codebases = [
         Map("FridgeStation Underground Below", "fridgestation", "_maps/map_files/FridgeStation/IcemoonUnderground_Fridge_Below.dmm", [1]),
     ], "--disable smart-cables"),
 
+    Codebase("NovaSector", "nova", "https://api.github.com/repos/NovaSector/NovaSector/git/trees", "master", "NovaSector", True, "_maps", [
+        Map("VoidRaptor", "voidraptor", "_maps/map_files/VoidRaptor/VoidRaptor.dmm", [1]), 
+        Map("Blueshift", "blueshift", "_maps/map_files/NSVBlueshift/Blueshift.dmm", [1, 2]),
+        Map("Ouroboros", "ouroboros", "_maps/map_files/Ouroboros/Ouroboros.dmm", [1, 2]),
+    ]),
+
     Codebase("NSV13", "nsv", "https://api.github.com/repos/BeeStation/NSV13/git/trees", "master", "NSV13", True, "_maps", [
         Map("Hammerhead", "hammerhead", "_maps/map_files/Hammerhead/Hammerhead.dmm", [1]),
         Map("Tycoon 1", "tycoon", "_maps/map_files/Tycoon/Tycoon1.dmm", [1]),
