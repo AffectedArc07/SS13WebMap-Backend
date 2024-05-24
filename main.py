@@ -288,6 +288,12 @@ codebases = [
         Map("BlueShift Upper Deck", "blueshift", "_maps/map_files/Blueshift/BlueShift_upper.dmm", [1]),
     ]),
 
+    Codebase("SS1984", "ss1984", "https://api.github.com/repos/ss220-space/Paradise/git/trees", "master220", "SS220-Paradise", True, "_maps", [
+        Map("Cyberiad", "cyberiad", "_maps/map_files/cyberiad/cyberiad.dmm", [1]),
+        Map("CereStation", "cerestation", "_maps/map_files/cerestation/cerestation.dmm", [1]),
+        Map("DeltaStation", "deltastation", "_maps/map_files/Delta/delta.dmm", [1]),
+    ]),
+
     Codebase("SS220", "ss220", "https://api.github.com/repos/ss220club/Paradise-SS220/git/trees", "master", "Paradise-SS220", False, "_maps", [
         Map("BoxStation", "boxstation", "_maps/map_files220/stations/boxstation.dmm", [1]),
         Map("DeltaStation", "deltastation", "_maps/map_files220/stations/deltastation.dmm", [1]),
