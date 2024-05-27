@@ -269,6 +269,14 @@ codebases = [
         Map("Serendipity Lower", "serendipity", "_maps/map_files/Serendipity/Serendipity2.dmm", [1]),
     ], "--disable smart-cables,icon-smoothing"),
 
+    Codebase("Monkestation", "monkestation", "https://api.github.com/repos/Monkestation/Monkestation2.0/git/trees", "master", "Monkestation", False, "_maps", [
+        Map("IceBox", "icebox", "_maps/map_files/IceBoxStation/IceBoxStation.dmm", [1, 2, 3]),
+        Map("BoxStation", "boxstation", "_maps/map_files/BoxStation/BoxStation.dmm", [1]),
+        Map("DeltaStation", "deltastation", "_maps/map_files/Deltastation/DeltaStation2.dmm", [1]),
+        Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStation.dmm", [1]),
+        Map("TramStation", "tramstation", "_maps/map_files/tramstation/tramstation.dmm", [1, 2]),
+    ]),
+
     Codebase("ParadiseSS13", "paradise", "https://api.github.com/repos/ParadiseSS13/Paradise/git/trees", "master", "Paradise", True, "_maps", [
         Map("Cyberiad", "cyberiad", "_maps/map_files/stations/boxstation.dmm", [1]),
         Map("CereStation", "cerestation", "_maps/map_files/stations/cerestation.dmm", [1]),
