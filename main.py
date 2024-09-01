@@ -303,7 +303,7 @@ codebases = [
         Map("DeltaStation", "deltastation", "_maps/map_files/Delta/delta.dmm", [1]),
     ]),
 
-    Codebase("SS220", "ss220", "https://api.github.com/repos/ss220club/Paradise-SS220/git/trees", "master", "Paradise-SS220", False, "_maps", [
+    Codebase("SS220", "ss220", "https://api.github.com/repos/ss220club/Paradise-SS220/git/trees", "master", "Paradise-SS220", True, "_maps", [
         Map("BoxStation", "boxstation", "_maps/map_files220/stations/boxstation.dmm", [1]),
         Map("DeltaStation", "deltastation", "_maps/map_files220/stations/deltastation.dmm", [1]),
         Map("MetaStation", "metastation", "_maps/map_files220/stations/metastation.dmm", [1]),
