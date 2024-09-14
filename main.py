@@ -282,6 +282,7 @@ codebases = [
         Map("CereStation", "cerestation", "_maps/map_files/stations/cerestation.dmm", [1]),
         Map("DeltaStation", "deltastation", "_maps/map_files/stations/deltastation.dmm", [1]),
         Map("MetaStation", "metastation", "_maps/map_files/stations/metastation.dmm", [1]),
+        Map("EmeraldStation", "emeraldstation", "_maps/map_files/stations/emeraldstation.dmm", [1]),
     ]),
 
     Codebase("SinguloStation", "singulo", "https://api.github.com/repos/SinguloStation13/SinguloStation13/git/trees", "master", "SinguloStation13", False, "_maps", [
@@ -331,6 +332,7 @@ codebases = [
         Map("TramStation", "tramstation", "_maps/map_files/tramstation/tramstation.dmm", [1, 2]),
         Map("NorthStar", "northstar", "_maps/map_files/NorthStar/north_star.dmm", [1, 2, 3, 4]),
         Map("BirdShot", "birdshot", "_maps/map_files/Birdshot/birdshot.dmm", [1]),
+        Map("WawaStation", "wawastation", "_maps/map_files/wawastation/wawastation.dmm", [1]),
     ]),
     
     Codebase("TGMC", "tgmc", "https://api.github.com/repos/tgstation/terragov-marine-corps/git/trees", "master", "TerraGov-Marine-Corps", True, "_maps", [
@@ -357,10 +359,11 @@ codebases = [
     ]),
 
     Codebase("Yogstation", "yog", "https://api.github.com/repos/Yogstation13/Yogstation/git/trees", "master", "Yogstation", True, "_maps", [
-        Map("Yogs Meta", "yogsmeta", "_maps/map_files/Yogsmeta/Yogsmeta.dmm", [1]),
+        Map("IceMeta", "icemeta", "_maps/map_files/IceMeta/IceMeta.dmm", [1, 2, 3]),
         Map("YogStation", "yogstation", "_maps/map_files/YogStation/YogStation.dmm", [1]),
         Map("GaxStation", "gaxstation", "_maps/map_files/GaxStation/GaxStation.dmm", [1]),
         Map("AsteroidStation", "asteroid", "_maps/map_files/AsteroidStation/AsteroidStation.dmm", [1]),
+        Map("DonutStation", "donut", "_maps/map_files/DonutStation/DonutStation.dmm", [1]),
     ], "--disable smart-cables"),
 ]
 
