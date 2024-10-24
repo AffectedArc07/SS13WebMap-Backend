@@ -127,6 +127,11 @@ codebases = [
         Map("Triumph 3 Operations Deck", "triumph", "maps/triumph/levels/deck3.dmm", [1]),
         Map("Triumph 2 Service Deck", "triumph", "maps/triumph/levels/deck2.dmm", [1]),
         Map("Triumph 1 Engineering Deck", "triumph", "maps/triumph/levels/deck1.dmm", [1]),
+        # Endeavour
+        Map("Endeavour 1", "endeavour", "maps/endeavour/levels/deck1.dmm", [1]),
+        Map("Endeavour 2", "endeavour", "maps/endeavour/levels/deck2.dmm", [1]),
+        Map("Endeavour 3", "endeavour", "maps/endeavour/levels/deck3.dmm", [1]),
+        Map("Endeavour 4", "endeavour", "maps/endeavour/levels/deck4.dmm", [1]),
     ]),
 
     Codebase("ChaoticOnyx", "onyx", "https://api.github.com/repos/ChaoticOnyx/OnyxBay/git/trees", "dev", "OnyxBay", False, "maps", [
@@ -362,8 +367,9 @@ codebases = [
         Map("IceMeta", "icemeta", "_maps/map_files/IceMeta/IceMeta.dmm", [1, 2, 3]),
         Map("YogStation", "yogstation", "_maps/map_files/YogStation/YogStation.dmm", [1]),
         Map("GaxStation", "gaxstation", "_maps/map_files/GaxStation/GaxStation.dmm", [1]),
-        Map("AsteroidStation", "asteroid", "_maps/map_files/AsteroidStation/AsteroidStation.dmm", [1]),
+        Map("ManateeStation", "manatee", "_maps/map_files/ManateeStation/ManateeStation.dmm", [1]),
         Map("DonutStation", "donut", "_maps/map_files/DonutStation/DonutStation.dmm", [1]),
+        Map("MiniStation", "mini", "_maps/map_files/MiniStation/MiniStation.dmm", [1, 2]),
     ], "--disable smart-cables"),
 ]
 
