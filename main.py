@@ -63,6 +63,24 @@ codebases = [
         Map("Serendipity Upper", "serendipity", "_maps/map_files/Serendipity/Serendipity1.dmm", [1]),
     ], "--disable smart-cables"),
 
+    Codebase("ArkStation", "arkstation", "https://api.github.com/repos/ArkStation13/Ark-Station-13/git/trees", "master", "Ark-Station-13", True, "_maps", [
+        Map("Blueshift", "blueshift", "_maps/ark_map_files/ark_maps/Blueshift.dmm", [1, 2]),
+        Map("DeltaStation", "delta", "_maps/ark_map_files/ark_maps/DeltaStation2.dmm", [1]),
+        Map("IceBoxStation", "icebox", "_maps/ark_map_files/ark_maps/IceBoxStation.dmm", [1, 2, 3]),
+        Map("KiloStation", "kilo", "_maps/ark_map_files/ark_maps/KiloStation2.dmm", [1]),
+        Map("MetaStation", "meta", "_maps/ark_map_files/ark_maps/MetaStation.dmm", [1]),
+        Map("Journey", "journey", "_maps/ark_map_files/ark_maps/NSSJourney.dmm", [1]),
+        Map("Omega", "omega", "_maps/ark_map_files/ark_maps/OmegaStation.dmm", [1, 2, 3]),
+        Map("Ouroboros", "ouroboros", "_maps/ark_map_files/ark_maps/Ouroboros.dmm", [1, 2]),
+        Map("PubbyStation", "pubby", "_maps/ark_map_files/ark_maps/PubbyStation.dmm", [1]),
+        Map("SerenityStation", "serenity", "_maps/ark_map_files/ark_maps/SerenityStation.dmm", [1, 2, 3]),
+        Map("VoidRaptor", "voidraptor", "_maps/ark_map_files/ark_maps/VoidRaptor.dmm", [1]),
+        Map("NorthStar", "northstar", "_maps/ark_map_files/ark_maps/north_star.dmm", [1, 2, 3, 4]),
+        Map("Snowglobe", "snowglobe", "_maps/ark_map_files/ark_maps/snowglobe.dmm", [1, 2, 3]),
+        Map("TramStation", "tram", "_maps/ark_map_files/ark_maps/tramstation.dmm", [1, 2]),
+        Map("WawaStation", "wawa", "_maps/ark_map_files/ark_maps/wawastation.dmm", [1, 2]),
+    ]),
+
     Codebase("Austation", "austation", "https://api.github.com/repos/austation/austation/git/trees", "master", "austation", True, "_maps", [
         Map("Austation", "austation", "_maps/map_files/Austation/Austation.dmm", [1]),
     ], "--disable smart-cables"),
