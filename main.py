@@ -325,6 +325,7 @@ codebases = [
         Map("Cyberiad", "cyberiad", "_maps/map_files/cyberiad/cyberiad.dmm", [1]),
         Map("CereStation", "cerestation", "_maps/map_files/cerestation/cerestation.dmm", [1]),
         Map("DeltaStation", "deltastation", "_maps/map_files/Delta/delta.dmm", [1]),
+        Map("NovaStation", "nova", "_maps/map_files/nova/nova.dmm", [1, 2]),
     ]),
 
     Codebase("SS220", "ss220", "https://api.github.com/repos/ss220club/Paradise-SS220/git/trees", "master", "Paradise-SS220", True, "_maps", [
