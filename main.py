@@ -194,14 +194,14 @@ codebases = [
     ]),
 
     Codebase("Effigy", "effigy", "https://api.github.com/repos/effigy-se/effigy-se/git/trees", "main", "effigy-se", True, "_maps", [
-        Map("FoxHoleStation", "foxholestation", "_maps/map_files/FoxHoleStation/foxholestation.dmm", [1, 2]),
+        Map("FoxHoleStation", "foxholestation", "_maps/effigy/map_files/FoxHoleStation/foxholestation.dmm", [1, 2]),
         Map("Tramstation", "tramstation", "_maps/map_files/tramstation/tramstation.dmm", [1, 2]),
-        Map("MiniStation", "ministation", "_maps/map_files/MiniStation/MiniStation.dmm", [1]),
+        #Map("MiniStation", "ministation", "_maps/map_files/MiniStation/MiniStation.dmm", [1]),
         Map("NorthStar", "northstar", "_maps/map_files/NorthStar/north_star.dmm", [1, 2, 3, 4]), 
         Map("IceBox", "icebox", "_maps/map_files/IceBoxStation/IceBoxStation.dmm", [1, 2, 3]),
         Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStation.dmm", [1]), 
-        Map("RimPoint", "rimpoint", "_maps/map_files/RimPoint/RimPoint.dmm", [1, 2]), 
-        Map("SigmaOctantis", "sigmaoctantis", "_maps/map_files/SigmaOctantis/SigmaOctantis.dmm", [1, 2]), 
+        Map("RimPoint", "rimpoint", "_maps/effigy/map_files/RimPoint/RimPoint.dmm", [1, 2]), 
+        Map("SigmaOctantis", "sigmaoctantis", "_maps/effigy/map_files/SigmaOctantis/SigmaOctantis.dmm", [1, 2]), 
     ]),
     
     Codebase("Eris", "eris", "https://api.github.com/repos/discordia-space/CEV-Eris/git/trees", "master", "CEV-Eris", False, "maps", [
