@@ -85,6 +85,10 @@ codebases = [
         Map("Austation", "austation", "_maps/map_files/Austation/Austation.dmm", [1]),
     ], "--disable smart-cables"),
 
+    Codebase("BandaStation", "bandastation", "https://api.github.com/repos/ss220club/BandaStation/git/trees", "master", "BandaStation", True, "_maps", [
+        Map("Cyberiad", "cyberiad", "_maps/map_files/Cyberiad/Cyberiad.dmm", [1]),
+    ]),
+
     Codebase("Baystation12", "bay12", "https://api.github.com/repos/Baystation12/Baystation12/git/trees", "dev", "Baystation12", True, "maps", [
         Map("Torch 1", "torch", "maps/torch/torch1_deck5.dmm", [1]),
         Map("Torch 2", "torch", "maps/torch/torch2_deck4.dmm", [1]),
