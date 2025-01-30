@@ -86,7 +86,7 @@ codebases = [
     ], "--disable smart-cables"),
 
     Codebase("BandaStation", "bandastation", "https://api.github.com/repos/ss220club/BandaStation/git/trees", "master", "BandaStation", True, "_maps", [
-        Map("Cyberiad", "cyberiad", "_maps/map_files/Cyberiad/Cyberiad.dmm", [1]),
+        Map("Cyberiad", "cyberiad", "_maps/map_files/Cyberiad/Cyberiad.dmm", [1, 2]),
     ]),
 
     Codebase("Baystation12", "bay12", "https://api.github.com/repos/Baystation12/Baystation12/git/trees", "dev", "Baystation12", True, "maps", [
