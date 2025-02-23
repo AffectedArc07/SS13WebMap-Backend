@@ -386,6 +386,10 @@ codebases = [
         Map("Arachne", "arachne", "_maps/map_files/Arachne/TGS_Arachne.dmm", [1]),
     ]),
 
+    Codebase("WorldOfDarkness13", "wod13", "https://api.github.com/repos/WorldOfDarknessXIII/World-of-Darkness-13/git/trees", "master", "World-of-Darkness-13", False, "_maps", [
+        Map("SanFrancisco", "sanfran", "_maps/map_files/Vampire/SanFrancisco.dmm", [1, 2, 3, 4]),
+    ]),
+
     Codebase("Yogstation", "yog", "https://api.github.com/repos/Yogstation13/Yogstation/git/trees", "master", "Yogstation", True, "_maps", [
         Map("IceMeta", "icemeta", "_maps/map_files/IceMeta/IceMeta.dmm", [1, 2, 3]),
         Map("YogStation", "yogstation", "_maps/map_files/YogStation/YogStation.dmm", [1]),
