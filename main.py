@@ -251,6 +251,17 @@ codebases = [
         Map("FridgeStation Underground Below", "fridgestation", "_maps/map_files/FridgeStation/IcemoonUnderground_Fridge_Below.dmm", [1]),
     ], "--disable smart-cables"),
 
+    Codebase("massmeta", "massmeta", "https://api.github.com/repos/Lambda-13/massmeta/git/trees", "master", "massmeta", False, "_maps", [
+        Map("Bearcat", "bearcat", "_maps/map_files/bearcat/bearcat.dmm", [1, 2, 3]),
+        #Map("HotMeta", "hotmeta", "_maps/map_files/hotmeta/hotmeta.dmm", [1]), # Doesnt work, requester said to skip it
+        Map("IceBox", "icebox", "_maps/map_files/IceBoxStation/IceBoxStation.dmm", [1, 2, 3]),
+        Map("KiloStation", "kilostation", "_maps/map_files/KiloStation/KiloStation.dmm", [1]),
+        Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStation.dmm", [1]),
+        Map("ProtoBox", "protobox", "_maps/map_files/ProtoBoxStation/ProtoBoxStation.dmm", [1]),
+        Map("Protos", "protos", "_maps/map_files/protosstation/protos.dmm", [1]),
+        Map("TramStation", "tramstation", "_maps/map_files/tramstation/tramstation.dmm", [1, 2]),
+    ]),
+
     Codebase("NovaSector", "nova", "https://api.github.com/repos/NovaSector/NovaSector/git/trees", "master", "NovaSector", True, "_maps", [
         Map("VoidRaptor", "voidraptor", "_maps/map_files/VoidRaptor/VoidRaptor.dmm", [1]), 
         Map("Blueshift", "blueshift", "_maps/map_files/NSVBlueshift/Blueshift.dmm", [1, 2]),
