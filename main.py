@@ -89,6 +89,7 @@ codebases = [
         Map("FlandStation", "flandstation", "_maps/map_files/FlandStation/FlandStation.dmm", [1]),
         Map("RadStation", "radstation", "_maps/map_files/RadStation/RadStation.dmm", [1]),
         Map("EchoStation", "echostation", "_maps/map_files/EchoStation/EchoStation.dmm", [1, 2, 3, 4]),
+        Map("CardinalStation", "cardinalstation", "_maps/map_files/CardinalStation/CardinalStation.dmm", [1]),
     ], "--disable smart-cables"),
 
     Codebase("BlueMoon", "bluemoon", "https://api.github.com/repos/BlueMoon-Labs/MOLOT-BlueMoon-Station/git/trees", "master", "MOLOT-BlueMoon-Station", False, "_maps", [
