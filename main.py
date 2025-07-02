@@ -180,11 +180,11 @@ codebases = [
         Map("Theseus", "theseus", "_maps/map_files/Theseus/Theseus.dmm", [1]),
     ]),
 
-    Codebase("Effigy", "effigy", "https://api.github.com/repos/effigy-se/effigy-se/git/trees", "main", "effigy-se", True, "_maps", [
+    Codebase("Effigy", "effigy", "https://api.github.com/repos/effigy-se/effigy/git/trees", "main", "effigy-se", True, "_maps", [
         Map("FoxHoleStation", "foxholestation", "_maps/effigy/map_files/FoxHoleStation/foxholestation.dmm", [1, 2]),
         Map("Tramstation", "tramstation", "_maps/map_files/tramstation/tramstation.dmm", [1, 2]),
         #Map("MiniStation", "ministation", "_maps/map_files/MiniStation/MiniStation.dmm", [1]),
-        Map("NorthStar", "northstar", "_maps/map_files/NorthStar/north_star.dmm", [1, 2, 3, 4]), 
+        #Map("NorthStar", "northstar", "_maps/map_files/NorthStar/north_star.dmm", [1, 2, 3, 4]), 
         Map("IceBox", "icebox", "_maps/map_files/IceBoxStation/IceBoxStation.dmm", [1, 2, 3]),
         Map("MetaStation", "metastation", "_maps/map_files/MetaStation/MetaStation.dmm", [1]), 
         Map("RimPoint", "rimpoint", "_maps/effigy/map_files/RimPoint/RimPoint.dmm", [1, 2]), 
