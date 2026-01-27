@@ -187,6 +187,7 @@ codebases = [
     ], "--disable smart-cables"),
 
     Codebase("DaedalusDock", "daedalus", "https://api.github.com/repos/DaedalusDock/daedalusdock/git/trees", "master", "daedalusdock", True, "_maps", [
+        Map("Atlas", "atlas", "_maps/map_files/Atlas/atlas.dmm", [1]),
         Map("Theseus", "theseus", "_maps/map_files/Theseus/Theseus.dmm", [1]),
     ]),
 
