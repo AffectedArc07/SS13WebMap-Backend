@@ -310,6 +310,10 @@ codebases = [
         Map("EmeraldStation", "emeraldstation", "_maps/map_files/stations/emeraldstation.dmm", [1]),
     ]),
 
+    Codebase("RuSCP", "ruscp", "https://api.github.com/repos/vacken12/Foundation-19byond516/git/trees", "main", "Foundation-19byond516", False, "maps", [
+        Map("Site53", "site53", "maps/site53/site53.dmm", [1, 2, 3, 4]),
+    ]),
+
     Codebase("SinguloStation", "singulo", "https://api.github.com/repos/SinguloStation13/SinguloStation13/git/trees", "master", "SinguloStation13", False, "_maps", [
         Map("ConstructionStation", "construction", "_maps/map_files/ConstructionStation/ConstructionStation.dmm", [1]),
         Map("CryoStation", "cryo", "_maps/map_files/CryoStation/CryoStation.dmm", [1]),
