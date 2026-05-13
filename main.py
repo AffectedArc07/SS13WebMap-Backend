@@ -174,16 +174,18 @@ codebases = [
 
     Codebase("CM-SS13", "cm", "https://api.github.com/repos/cmss13-devs/cmss13/git/trees", "master", "cmss13", True, "maps", [
         Map("Fiorina Science Annex", "fiorina", "maps/map_files/FOP_v3_Sciannex/Fiorina_SciAnnex.dmm", [1]),
-        Map("Kutjevo Refinery", "kutjevo", "maps/map_files/Kutjevo/Kutjevo.dmm", [1]),
-        Map("USS Almayer", "almayer", "maps/map_files/USS_Almayer/USS_Almayer.dmm", [1]),
-        Map("LV624", "lv624", "maps/map_files/LV624/LV624.dmm", [1]),
-        Map("Solaris Ridge", "solaris", "maps/map_files/BigRed/BigRed.dmm", [1]),
-        Map("Trijent Dam", "trijent", "maps/map_files/DesertDam/Desert_Dam.dmm", [1]),
-        Map("Shivas Snowball", "shivas", "maps/map_files/Ice_Colony_v3/Shivas_Snowball.dmm", [1]),
+        Map("Kutjevo Refinery", "kutjevo", "maps/map_files/Kutjevo/Kutjevo.dmm", [1, 2]),
+        Map("USS Almayer", "almayer", "maps/map_files/USS_Almayer/USS_Almayer.dmm", [1, 2, 3, 4]),
+        Map("LV624", "lv624", "maps/map_files/LV624/LV624.dmm", [1, 2]),
+        Map("Solaris Ridge", "solaris", "maps/map_files/BigRed/BigRed.dmm", [1, 2]),
+        Map("Trijent Dam", "trijent", "maps/map_files/DesertDam/Desert_Dam.dmm", [1, 2, 3, 4]),
+        Map("Shivas Snowball", "shivas", "maps/map_files/Ice_Colony_v3/Shivas_Snowball.dmm", [1, 2]),
         Map("Whiskey Outpost", "whiskey", "maps/map_files/Whiskey_Outpost_v2/Whiskey_Outpost_v2.dmm", [1]),
-        Map("Sorokyne Strata", "sorokyne", "maps/map_files/Sorokyne_Strata/Sorokyne_Strata.dmm", [1]),
-        Map("LV522", "lv522", "maps/map_files/LV522_Chances_Claim/LV522_Chances_Claim.dmm", [1]),
-        Map("NewVaradero", "newvaradero", "maps/map_files/New_Varadero/New_Varadero.dmm", [1]),
+        Map("Sorokyne Strata", "sorokyne", "maps/map_files/Sorokyne_Strata/Sorokyne_Strata.dmm", [1, 2]),
+        Map("LV522", "lv522", "maps/map_files/LV522_Chances_Claim/LV522_Chances_Claim.dmm", [1, 2]),
+        Map("NewVaradero", "newvaradero", "maps/map_files/New_Varadero/New_Varadero.dmm", [1, 2]),
+        Map("LV759", "lv759", "maps/map_files/LV759_Hybrisa_Prospera/LV759_Hybrisa_Prospera.dmm", [1, 2]),
+        Map("TyragoRift", "tyragorift", "maps/map_files/Tyrargo_Rift/Tyrargo_Rift.dmm", [1, 2, 3]),
     ], "--disable smart-cables"),
 
     Codebase("DaedalusDock", "daedalus", "https://api.github.com/repos/DaedalusDock/daedalusdock/git/trees", "master", "daedalusdock", True, "_maps", [
