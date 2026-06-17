@@ -342,6 +342,12 @@ codebases = [
         Map("MetaStation", "metastation", "_maps/map_files220/stations/metastation.dmm", [1]),
     ]),
 
+    Codebase("SurfShack", "surfshack", "https://api.github.com/repos/peppyrmynt/SurfShack13/git/trees", "master", "SurfShack13", False, "_maps", [
+        Map("BoxStation", "box", "_maps/map_files/BoxStation/BoxStation.dmm", [1]),
+        Map("MiniSurf", "minisurf", "_maps/map_files/MiniSurf/MiniSurf.dmm", [1]),
+        Map("PubbyStation", "pubby", "_maps/map_files/PubbyStation/PubbyStation.dmm", [1]),
+    ]),
+
     Codebase("TaleStation", "talestation", "https://api.github.com/repos/TaleStation/TaleStation/git/trees", "master", "TaleStation", True, "_maps", [
         Map("Lima", "lima", "_maps/map_files/LimaStation/LimaStation.dmm", [1, 2]), 
         Map("PubbyStation", "pubby", "_maps/map_files/PubbyStation/PubbyStation.dmm", [1]),
